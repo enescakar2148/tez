@@ -1,9 +1,16 @@
+import { Route, Routes } from "react-router";
+import Feed from "./Components/Feed";
+import Signup from "./Components/Signup";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Routes>
+        <Route path="/" exact element={<Feed/>}/>
+        <Route path="/sign-up" element={<Signup/>}/>
+
+      </Routes>
     </div>
   );
 }
