@@ -9,7 +9,6 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Feed/>}/>
         <Route path="/sign-up" element={<Signup/>}/>
-
       </Routes>
     </div>
   );
