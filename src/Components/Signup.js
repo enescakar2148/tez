@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-
+import "../css/Signup.css"
 export default class Signup extends Component {
     render() {
         return (
-            <div>
-                <h1>Sign Up</h1>
+            <div className="wrapper">
+                <h1 id="Kayıt">Kayıt ol</h1>
+                
             </div>
         )
     }
