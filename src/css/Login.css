@@ -1,0 +1,69 @@
+@import url("../css/Colurs.css");
+
+@font-face {
+    font-family: poppins-regular;
+    src: url("../fonts/Poppins-Regular.otf");
+}
+
+.container{
+
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(33, 105, 212);
+    
+
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 5px;
+}
+
+.input{
+padding:.5rem 1rem;
+outline:none;
+border:1px solid transparent;
+border-radius: 5px;
+
+
+}
+
+.login-btn{
+    font-family: poppins-regular;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color:var(--BG_GREEN);
+    color:var(--WHITE);
+    margin-top:1rem;
+    padding: .5rem 0 .5rem 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.login-btn:hover{
+  background-color: #fff;
+  color: rgb(33, 105, 212);
+}
+
+.labels{
+    color:var(--WHITE);
+    font-family: poppins-regular;
+    display: block;
+}
+
+.labels2{
+margin-top: 15px;
+
+}
+::placeholder {
+    font-family: poppins-regular;
+    color: rgba(0, 0, 0, 0.3);
+  }
+
