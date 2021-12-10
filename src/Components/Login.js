@@ -16,7 +16,7 @@ export default class Login extends Component {
                         <input type="password" placeholder="Enter Password" name="psw" className="input" />
                     </div>
 
-                    <button type="submit" className="login-btn">Login</button>
+                    <button type="submit" className="login-btn">Giriş</button>
 
                 </div>
             </div>
