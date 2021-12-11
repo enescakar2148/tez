@@ -50,3 +50,8 @@
     border: 1px solid var(--LIGHT-GREEN);
     color: var(--LIGHT-GREEN);
 }
+
+a{
+    color: #000;
+    text-decoration: none;
+}

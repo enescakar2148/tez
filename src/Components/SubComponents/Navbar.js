@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../../css/navbar.css"
 import logo from "../../images/logo.png"
 
@@ -10,6 +11,9 @@ export default function Navbar() {
 
                 <ul className='nav-list'>
                     <li className='nav-item'>Anasayfa</li>
+                    <li className='nav-item'>
+                        <Link to="/blog">Blog</Link>
+                    </li>
                     <li className='nav-item'>Hakkımızda</li>
                     <li className='nav-item'>Hizmetlerimiz</li>
                     <li className='nav-item'>İletişim</li>
