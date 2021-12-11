@@ -1,24 +1,19 @@
 import React from 'react'
 import "../../css/navbar.css"
+import logo from "../../images/logo.png"
 
 export default function Navbar() {
     return (
-        <div className="navbar bg-success">
-            <nav>
+        <div className="wrapper">
+            <nav className='navbar'>
+                <img src={logo} id="logo" alt="Logo" />
 
-                <h1 id="logo">Logo</h1>
-
-                <input
-                    type="text"
-                    id="searchbar"
-                    className="input-navbar"
-                    placeholder="Ne Aramıştınız ?" />
-
-                <ul className="nav-list">
-                    <li className="item">Anasayfa</li>
-                    <li className="item">Eğitimler</li>
-                    <li className="item">Randevu Al</li>
-                    <li className="item">Blog</li>
+                <ul className='nav-list'>
+                    <li className='nav-item'>Anasayfa</li>
+                    <li className='nav-item'>Hakkımızda</li>
+                    <li className='nav-item'>Hizmetlerimiz</li>
+                    <li className='nav-item'>İletişim</li>
+                    <li className='nav-item' id='randevu'>Randevu Al</li>
                 </ul>
             </nav>
         </div>
