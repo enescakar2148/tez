@@ -5,27 +5,24 @@ import loginp from '../images/login1.png';
 export default class Login extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="login-swapper">
                 <div className="photo">
-                    <img src={loginp} />
+                    <img src={loginp} id='login-photo' />
                 </div>
-                <div className="content">
-                    
-                    <label className="label1" for="fname">E-mail </label>
-                    <input className="labelx" type="text" id="fname" name="fname" />
-                        <label for="lname">Şifre</label>
-                        <input type="text" className="labelx" id="lname" name="lname" />
-                        <div className='btn-b'>
-                        <label for="lname">Şifrenizi mi unuttunuz?</label>
-                        <button className="buttonx" > Giriş Yap </button>
-                        </div>
+                <div className="inputs">
+
+                <label className="input-text" for="fname">E-mail </label>
+                <input className="input" type="text" id="fname" name="fname" />
                
-                        </div>
+                <label className="input-text" for="input">Şifre</label>
+                <input className="input" type="text" id="lname" name="lname" />
+               
+                <button className="buttonx" > Giriş Yap </button>
+                <label className="input-text" for="input">Şifrenizi mi unuttunuz?</label>
+                </div>
 
+            </div>
 
-
-                    </div>
-
-                        )
+        )
     }
 }

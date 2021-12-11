@@ -1,56 +1,71 @@
 @import url("../css/Colurs.css");
 
 @font-face {
-    font-family: poppins-regular;
-    src: url("../fonts/Poppins-Regular.otf");
+    font-family: poppins-light;
+    src: url("../fonts/Poppins-Light.otf");
 }
 
-.container{
+.login-swapper{
 display:flex;
-
-
+height: 100vh;
+width: 100%;
 }
 .photo{
 display: flex;
 
-
-
+width: 100%;
 }
-.content{
+#login-photo{
+  width: 100%;
+  background-size: contain;
+}
+
+.input-text{
+  width: 75%;
+  padding-left: .75rem;
+  font-family: poppins-light;
+}
+
+.input{
+  width: 75%;
+  border: 1px solid var(--LIGHT-GREEN);
+  border-radius: 25px;
+  padding: 1rem 1.25rem 1rem 1.25rem;
+  color: #000000;
+  transition: .2s;
+  margin: 1rem .25rem;
+}
+.input:focus{
+  outline: none;
+  background-color: var(--LIGHT-GREEN);
+  color: var(--WHITE);
+}
+.inputs{
 display: flex;
 flex-direction: column;
-
-
-
-}
-.labelx{
- 
-  margin-top: 5px;
-    margin-bottom: 5px;
-    background: rgba(96, 214, 185, 0.65);
-    border: none;
-}
-.buttonx{
-  width: 93px;
-height: 26px;
-left: 1095px;
-top: 622px;
-border: none;
-background: #07D9A6;
-opacity: 0.3;
-border-radius: 15px;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 33px;
-
-color: #000000;
-display: flex;
 justify-content: center;
-
+align-items: center;
+width: 100%;
 }
-.btn-b{
-display: flex;
-margin-top: 5px;
 
+.buttonx{
+  background-color: var(--LIGHT-GREEN);
+  padding: .5rem .75rem;
+  width: 75%;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 10px;
+
+  color: #fff;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.buttonx:hover{
+  border: 1px solid var(--LIGHT-GREEN);
+  background-color: transparent;
+  color: var(--LIGHT-GREEN);
 }
