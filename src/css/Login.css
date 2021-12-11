@@ -13,7 +13,7 @@ width: 100%;
 .photo{
 display: flex;
 
-width: 100%;
+width: 55%;
 }
 #login-photo{
   width: 100%;
@@ -41,11 +41,11 @@ width: 100%;
   color: var(--WHITE);
 }
 .inputs{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .buttonx{
