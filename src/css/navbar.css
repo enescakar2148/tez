@@ -38,19 +38,23 @@
 
 #randevu{
     background-color: var(--LIGHT-GREEN);
-    color: var(--WHITE);
     border-radius: 35px;
     transition: .2s;
     border: 1px solid transparent;
     cursor: pointer;
 }
+#randevu-link-text{
+    color: var(--WHITE);
+    transition: .2s;
 
+}
 #randevu:hover{
     background-color: var(--WHITE);
     border: 1px solid var(--LIGHT-GREEN);
+}
+#randevu-link-text:hover{
     color: var(--LIGHT-GREEN);
 }
-
 a{
     color: #000;
     text-decoration: none;
