@@ -10,14 +10,24 @@ export default function Navbar() {
                 <img src={logo} id="logo" alt="Logo" />
 
                 <ul className='nav-list'>
-                    <li className='nav-item'>Anasayfa</li>
+                    <li className='nav-item'>
+                        <Link to="/">Anasayfa</Link>
+                    </li>
                     <li className='nav-item'>
                         <Link to="/blog">Blog</Link>
                     </li>
-                    <li className='nav-item'>Hakkımızda</li>
-                    <li className='nav-item'>Hizmetlerimiz</li>
-                    <li className='nav-item'>İletişim</li>
-                    <li className='nav-item' id='randevu'>Randevu Al</li>
+                    <li className='nav-item'>
+                        <Link to="/about">Hakkımızda</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="/hizmet">Hizmetlerimiz</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="/contact">İletişim</Link>
+                    </li>
+                    <li className='nav-item' id='randevu'>
+                        <Link to="/randevu-al" id='randevu-link-text'>Randevu Al</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

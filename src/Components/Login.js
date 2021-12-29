@@ -7,7 +7,7 @@ export default class Login extends Component {
         return (
             <div className="login-swapper">
                 <div className="photo">
-                    <img src={loginp} id='login-photo' />
+                    <img src={loginp} id='login-photo' alt='login photo'/>
                 </div>
                 <div className="inputs">
 
