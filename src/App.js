@@ -6,6 +6,7 @@ import Signup from "./Components/Signup";
 import About from "./Components/About";
 import Hizmet from "./Components/Hizmet";
 import Contact from "./Components/Contact";
+import PostDetails from "./Components/PostDetails";
 import RandevuAl from "./Components/RandevuAl";
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/hizmet" element={<Hizmet/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/randevu-al" element={<RandevuAl/>}/>
+        <Route path="/post-details" element={<PostDetails/>}/>
 
       </Routes>
     </div>
