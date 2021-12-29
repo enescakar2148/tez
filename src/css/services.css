@@ -1,0 +1,49 @@
+.card{
+    width:376px;
+    height:518px;
+    border:0.7px solid gainsboro;
+    font-family: poppins-light;
+    padding: 2%;
+    display: flex;
+    max-width: 100%;
+   flex-direction: column;
+   margin-left: 2rem;
+}
+.card h2{
+    text-align: center;
+    padding-top: 2rem;
+  
+}
+
+.card p{
+
+    margin-top: 6%;
+
+}
+
+.card button{
+    background-color: rgba(96, 214, 185, 0.65);
+    color: #ffffff;
+    font-weight: bolder;
+    border: none;
+    height: 50px;
+    font-family: poppins-light;
+    border-radius:35px;
+    margin-top: 17rem;
+}
+
+.card:hover {
+
+    border: 2px solid rgba(96, 214, 185, 0.65);
+}
+
+.card button:hover{
+    background-color: var(--WHITE);
+    border: 1px solid var(--LIGHT-GREEN);
+    color: var(--LIGHT-GREEN);
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}

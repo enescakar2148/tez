@@ -1,0 +1,42 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.about_container{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 2rem;
+    gap: 30px;
+}
+.about_ana{
+    
+}
+.about_container1_text{
+display: flex;
+    flex-direction: column;
+
+
+}
+
+.about_container1{
+    display: flex;
+
+}
+.about_container1_text p{
+width:500px;
+font-family: 'poppins-light';
+}
+.about_container1_text h2{
+
+    font-family: 'poppins-light';
+    margin-bottom: 3%;
+    }
+.about_container1 img{
+    width:500px;
+}
+.card{
+    width:376px;
+    height:518px;
+    border: 0.7px solid #000000;
+}
