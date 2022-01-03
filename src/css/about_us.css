@@ -8,6 +8,7 @@ body{
     flex-wrap:wrap;
     margin-top: 2rem;
     gap: 30px;
+    
 }
 .about_ana{
     
@@ -34,9 +35,4 @@ font-family: 'poppins-light';
     }
 .about_container1 img{
     width:500px;
-}
-.card{
-    width:376px;
-    height:518px;
-    border: 0.7px solid #000000;
 }

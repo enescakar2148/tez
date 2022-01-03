@@ -18,7 +18,7 @@ export default class Login extends Component {
                 <input className="input" type="text" id="lname" name="lname" />
                
                 <button className="buttonx" > Giriş Yap </button>
-                <label className="input-text" for="input">Şifrenizi mi unuttunuz?</label>
+           <a href="" a/>
                 </div>
 
             </div>
