@@ -1,0 +1,14 @@
+@import url("./Colurs.css");
+
+.post-details-swapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.post-details{
+    border: 1px solid #000;
+    height: fit-content;
+    width: 50%;
+}

@@ -17,10 +17,10 @@ export default function Navbar() {
                         <Link to="/blog">Blog</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/about">Hakkımızda</Link>
+                        <Link to="/about-us">Hakkımızda</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/hizmet">Hizmetlerimiz</Link>
+                        <Link to="/services">Hizmetlerimiz</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="/contact">İletişim</Link>
