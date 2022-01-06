@@ -4,6 +4,9 @@ input {
     border: none;
   }
   
+  .inputx:hover{
+    border:none;
+  }
  
   textarea:focus, input:focus {
     border-color: transparent !important;
