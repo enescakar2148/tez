@@ -3,11 +3,13 @@ import Blog from "./Components/Blog";
 import Feed from "./Components/Feed";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
-import Contact from "./Components/Contact";
+import Contact from "./Components/Contactt";
 import PostDetails from "./Components/PostDetails";
 import RandevuAl from "./Components/RandevuAl";
 import Services from "./Components/Services"
 import About_us from "./Components/About_us";
+
+
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/randevu-al" element={<RandevuAl/>}/>
         <Route path="/post-details" element={<PostDetails/>}/>
+ 
+
 
 
       </Routes>
