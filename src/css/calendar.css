@@ -1,0 +1,27 @@
+.calendar{
+    display:flex;
+}
+.calendar_t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.calendar_btn{
+    display: flex;
+    width: 174px;
+    height: 65px;
+    left: 1139px;
+    top: 861px;
+    background: #07D9A6;
+    opacity: 0.3;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left:5%;
+}
