@@ -11,7 +11,7 @@ export default function Navbar() {
 
                 <ul className='nav-list'>
                     <li className='nav-item'>
-                        <Link to="/">Anasayfa</Link>
+                        <Link to="/tez">Anasayfa</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="/blog">Blog</Link>
