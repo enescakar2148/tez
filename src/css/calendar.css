@@ -8,6 +8,9 @@
     align-content: center;
     width: 100%;
 }
+#calendar-image{
+    height: 99vh;
+}
 .calendar_btn{
     display: flex;
     width: 174px;

@@ -16,7 +16,7 @@ export default function RandevuAl() {
   return (
     <div className="calendar">
             <div className="calendarp">
-        <img src={CalendarP}>
+        <img src={CalendarP} id='calendar-image'>
     
         </img>
         </div>

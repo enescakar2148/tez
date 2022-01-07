@@ -14,34 +14,56 @@ export default class Feed extends Component {
             <div className="Anasayfa">
                 <Navbar />
                 <div className="slider_ana">
-                <div className="slider">
+                    <div className="slider">
 
-                    <a href="#slide-1">1</a>
-                    <a href="#slide-2">2</a>
-                    <a href="#slide-3">3</a>
-                    <a href="#slide-4">4</a>
-                    <a href="#slide-5">5</a>
+                        <div className='numbers-wrapper'>
+                            <ul id='slide-route'>
+                                <li id='route1' className='route'>
+                                    1
+                                </li>
 
-                    <div className="slides">
-                        <div id="slide-1">
-                        <img src={slider1}>
-                    </img>
+                                <li id='route2' className='route'>
+                                    2
+                                </li>
+
+                                <li id='route3' className='route'>
+                                    3
+                                </li>
+
+                                <li id='route4' className='route'>
+                                    4
+                                </li>
+
+                                <li id='route5' className='route'>
+                                    5
+                                </li>
+                            </ul>
                         </div>
-                        <div id="slide-2">
-                        <img src={slider2}>
-                    </img>
+
+                        <div className="slides">
+                            <div id="slide-1">
+                                <img src={slider1} className='slide-image'
+                                    alt='Slider Image'>
+                                </img>
+                            </div>
+                            <div id="slide-2">
+                                <img src={slider2} className='slide-image'
+                                    alt='Slider Image'>
+                                </img>
+                            </div>
+                            <div id="slide-3">
+                                <img src={slider3} className='slide-image'
+                                    alt='Slider Image'>
+                                </img>
+                            </div>
+                            <div id="slide-4">
+                                <img src={slider4} className='slide-image'
+                                    alt='Slider Image'>
+                                </img>
+                            </div>
+
                         </div>
-                        <div id="slide-3">
-                        <img src={slider3}>
-                    </img>
-                        </div>
-                        <div id="slide-4">
-                        <img src={slider4}>
-                    </img>
-                        </div>
-                      
                     </div>
-                </div>
                 </div>
             </div>
         )
