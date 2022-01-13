@@ -26,7 +26,7 @@ export default function Navbar() {
                         <Link to="/contact">İletişim</Link>
                     </li>
                     <li className='nav-item' id='randevu'>
-                        <Link to="/randevu-al" id='randevu-link-text'>Randevu Al</Link>
+                        <Link to="/login" id='randevu-link-text'>Randevu Al</Link>
                     </li>
                 </ul>
             </nav>

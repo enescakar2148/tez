@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import "../css/Signup.css"
 
 
@@ -30,7 +31,7 @@ export default class Signup extends Component {
             <label for="" className="label">Confirm Password</label>
           </div>
 
-          <input type="submit" className="submitBtn" value="Sign up" />
+          <Link to="/tez" className='submitBtn'>Kayıt Ol</Link>
         </form>
 
       </div>

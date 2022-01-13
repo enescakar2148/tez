@@ -62,10 +62,19 @@ width: 55%;
   margin: 0 0 1rem 0;
   cursor: pointer;
   transition: .2s;
+  text-align: center;
 }
 
 .buttonx:hover{
   border: 1px solid var(--LIGHT-GREEN);
   background-color: transparent;
+  color: var(--LIGHT-GREEN);
+}
+#sign-up-text{
+  padding: .5rem 0 0 0;
+  font-style: italic;
+  font-size: .9rem;
+}
+#sign-up-span{
   color: var(--LIGHT-GREEN);
 }

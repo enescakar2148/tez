@@ -6,8 +6,18 @@ export default class Blog extends Component {
     render() {
         return (
             <div>
-                <Navbar/>
-                <PostListItem/>
+                <Navbar />
+                <div className='blog-container-page-swapper'>
+                    <div className='filter'>
+                        
+                    </div>
+                    <div className='post-items'>
+                        <PostListItem />
+                        <PostListItem />
+                        <PostListItem />
+
+                    </div>
+                </div>
             </div>
         )
     }
