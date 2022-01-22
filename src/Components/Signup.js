@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import "../css/Signup.css"
 
-
 export default class Signup extends Component {
+  
   render() {
     return (
 
@@ -12,7 +12,7 @@ export default class Signup extends Component {
           <h1 class="title">Sign up</h1>
 
           <div class="inputContainer">
-            <input type="text" className="inpute" placeholder="a" />
+            <input type="text" className="inpute" placeholder="a"  id='mail'/>
             <label for="" className="label">Email</label>
           </div>
 
@@ -37,4 +37,5 @@ export default class Signup extends Component {
       </div>
     )
   }
+
 }

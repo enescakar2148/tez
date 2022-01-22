@@ -48,3 +48,7 @@
     background: #ffffff;
     color: var(--LIGHT-GREEN);
 }
+
+#title-post-list{
+    color: #fff;
+}
