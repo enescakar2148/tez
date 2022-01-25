@@ -101,3 +101,40 @@ body {
     font-weight: 600;
   }
  
+
+/* Responsive */
+
+/* Large */
+@media (min-width: 1201px) {
+    
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media (max-width: 1050px) {
+   
+}
+
+@media (max-width: 932px) {
+    
+}
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+/* Tablets */
+@media (max-width: 780px) {
+    
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    
+}

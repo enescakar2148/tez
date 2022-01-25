@@ -52,3 +52,39 @@
 #title-post-list{
     color: #fff;
 }
+
+
+/* Responsive */
+
+
+/* Laptop */
+@media (max-width: 1050px) {
+   .container{
+       width: 75% !important;
+   }
+}
+
+
+/* Tablets */
+@media (max-width: 780px) {
+    .container{
+        width: 100% !important;
+    }
+
+    .optinion{
+        font-size: 1rem;
+        width: fit-content;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    .sub-optinions{
+        flex-direction: column;
+    }
+
+    .optinion{
+        margin: .5rem 0;
+        width: 100%;
+    }
+}

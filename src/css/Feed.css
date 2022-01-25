@@ -93,3 +93,69 @@
     background: #000;
   }
 
+
+/* Responsive */
+
+/* Large */
+@media (min-width: 1201px) {
+    
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media (max-width: 1050px) {
+   
+}
+
+@media (max-width: 932px) {
+  .slider_ana{
+     width: 100%;
+     margin: 1rem 0;
+     border: none;
+     padding: 1rem 0;
+  }
+}
+
+
+@media (max-width: 900px) {
+
+}
+
+
+/* Tablets */
+@media (max-width: 780px) {
+    .slides{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slide-image{
+      width: 100%;
+    }
+    #slide-1{
+      width: 100%;
+      margin: 1rem 0;
+    }
+    #slide-2{
+      width: 100%;
+      margin: 1rem 0;
+    }
+    #slide-3{
+      width: 100%;
+      margin: 1rem 0;
+    }
+    #slide-4{
+      width: 100%;
+      margin: 1rem 0;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    
+}

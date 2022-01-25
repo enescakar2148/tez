@@ -28,10 +28,6 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/randevu-al" element={<RandevuAl/>}/>
         <Route path="/post-details" element={<PostDetails/>}/>
- 
-
-
-
       </Routes>
     </div>
   );

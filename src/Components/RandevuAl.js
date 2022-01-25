@@ -23,7 +23,8 @@ export default function RandevuAl() {
       <div className="calendar_t">
         <Calendar value={value} onChange={onChange} />
         <button className="calendar_btn" onClick={() => {
-         alert("Randevunuz " + value + " Başarıyla Alındı!")
+         alert("Randevunuz " + value + " Başarıyla Alındı!");
+         
         }}>Randevu Al</button>
       </div>
     </div>

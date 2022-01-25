@@ -8,9 +8,6 @@ export default class Blog extends Component {
             <div>
                 <Navbar />
                 <div className='blog-container-page-swapper'>
-                    <div className='filter'>
-                        
-                    </div>
                     <div className='post-items'>
                         <PostListItem />
                         <PostListItem />

@@ -78,3 +78,13 @@ width: 55%;
 #sign-up-span{
   color: var(--LIGHT-GREEN);
 }
+
+
+/* Responsive */
+
+
+@media (max-width: 900px) {
+  .photo{
+    display: none;
+  }
+}

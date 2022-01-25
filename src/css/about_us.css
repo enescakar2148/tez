@@ -36,3 +36,63 @@ font-family: 'poppins-light';
 .about_container1 img{
     width:500px;
 }
+
+
+
+/* Responsive */
+
+/* Large */
+@media (min-width: 1201px) {
+    
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media (max-width: 1050px) {
+   
+}
+
+@media (max-width: 932px) {
+    
+}
+
+
+@media (max-width: 900px) {
+
+}
+
+
+/* Tablets */
+@media (max-width: 780px) {
+    img{
+        width: 100% !important;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .about_container1{
+        height: fit-content;
+    }
+    .about_container1_text{
+        width: 100%;
+        padding: .5rem;
+    }
+    .about_container1_title{
+        font-size: 1rem;
+    }
+
+    .about_container1_p{
+        font-size: .75rem;
+        width: 100% !important;
+        padding: .5rem;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    
+}
