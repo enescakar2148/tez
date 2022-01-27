@@ -59,6 +59,15 @@ export default class PostDetails extends Component {
                         </div>
                     </div>
                 </div>
+                
+
+                <div className='footer'>
+                        <h2 id='send-comment-text'>Yorum Yap</h2>
+                        <div className='comment-components'>
+                            <input type="text" placeholder="aaa" id="comment-input"/>
+                            <button id='comment-button'>Gönder</button>
+                        </div>
+                    </div>
             </div>
         )
     }

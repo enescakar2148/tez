@@ -12,7 +12,7 @@ export default function PostListItem() {
                     <p id='date-text'>04 Mart 2021</p>
                 </div>
                 <div className="sub-optinions">
-                    <h2 className='sub-optinion optinion'>Post a Comment</h2>
+                <Link to="/post-details" className='sub-optinion optinion'>Post a Comment</Link>
                     <Link to="/post-details" className="link optinion">Read More</Link>
                 </div>
             </div>
