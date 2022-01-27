@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tez/static/css/main.d42d588e.chunk.css",
-    "main.js": "/tez/static/js/main.315a09e7.chunk.js",
-    "main.js.map": "/tez/static/js/main.315a09e7.chunk.js.map",
+    "main.css": "/tez/static/css/main.03f675af.chunk.css",
+    "main.js": "/tez/static/js/main.230c0fb9.chunk.js",
+    "main.js.map": "/tez/static/js/main.230c0fb9.chunk.js.map",
     "runtime-main.js": "/tez/static/js/runtime-main.8dcaba7f.js",
     "runtime-main.js.map": "/tez/static/js/runtime-main.8dcaba7f.js.map",
     "static/css/2.317d5dd5.chunk.css": "/tez/static/css/2.317d5dd5.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.c0a6b89b.chunk.js.map": "/tez/static/js/3.c0a6b89b.chunk.js.map",
     "index.html": "/tez/index.html",
     "static/css/2.317d5dd5.chunk.css.map": "/tez/static/css/2.317d5dd5.chunk.css.map",
-    "static/css/main.d42d588e.chunk.css.map": "/tez/static/css/main.d42d588e.chunk.css.map",
+    "static/css/main.03f675af.chunk.css.map": "/tez/static/css/main.03f675af.chunk.css.map",
     "static/js/2.8bc16690.chunk.js.LICENSE.txt": "/tez/static/js/2.8bc16690.chunk.js.LICENSE.txt",
     "static/media/Login.css": "/tez/static/media/Poppins-Light.f0c40fb3.otf",
     "static/media/navbar.css": "/tez/static/media/Poppins-Regular.1421a94e.otf",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.8dcaba7f.js",
     "static/css/2.317d5dd5.chunk.css",
     "static/js/2.8bc16690.chunk.js",
-    "static/css/main.d42d588e.chunk.css",
-    "static/js/main.315a09e7.chunk.js"
+    "static/css/main.03f675af.chunk.css",
+    "static/js/main.230c0fb9.chunk.js"
   ]
 }
